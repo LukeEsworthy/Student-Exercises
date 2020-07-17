@@ -6,6 +6,3 @@ class Student:
         self.slack_handle = slack_handle
         self.cohort = ""
         self.exercises = []
-
-
-luke = Student("Luke", "Esworthy", "lukeesworthy")

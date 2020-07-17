@@ -4,3 +4,6 @@ class Cohort:
         self.name = name
         self.student = []
         self.instructor = []
+
+    def __str__(self):
+        return f"{self.name}"

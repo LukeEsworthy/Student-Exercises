@@ -23,7 +23,8 @@ alexa = Student("Alexa", "Hola", "heyalexa")
 
 # Create 3 or more instructors and assign them to a cohort
 lupin = Instructor("Romulus", "Lupin", "howlsatthemoon",
-                   "always has chocolate")
+                   "always there if you need chocolate")
 snape = Instructor("Severus", "Snape", "snivellus", "looking gloomy")
 lockhart = Instructor("Gilderoy", "Lockhart",
-                      "sexyandiknowit", "hair is always on point")
+                      "sexyandiknowit", "always looking fresh")
+

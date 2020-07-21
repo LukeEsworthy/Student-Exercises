@@ -1,13 +1,11 @@
+from nssperson import NSSPerson
 from student import Student
 
 
-class Instructor:
+class Instructor(NSSPerson):
 
     def __init__(self, first_name, last_name, slack_handle, specialty):
-        self.first_name = first_name
-        self.last_name = last_name
-        self.slack_handle = slack_handle
-        self.cohort = ""
+        super().__init__(first_name, last_name, slack_handle)
         self.specialty = specialty
 
     def __str__(self):
